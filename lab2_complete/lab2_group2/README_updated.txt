@@ -1,8 +1,5 @@
 CSC467 Lab2 Report
 
-Jianning Yan (1000461715)
-Wen Ying Zhang (1000404207)
-
 Breakdown of work:
 1. Both team member contributed equally to all the parts in the lab.
 2. Wen Ying Zhang contributed mostly to the beginning of the lab, writing the draft code, and setting up the starting environment. She wrote the test cases and did some final testing.
