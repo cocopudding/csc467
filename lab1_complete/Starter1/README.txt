@@ -1,9 +1,3 @@
-CSC467 Report
-
-Jianning Yan (1000461715)
-Wen Ying Zhang (1000404207)
-
-Both team member contributed equally to all the parts of the labs.
 
 Special Problems Encouter:
 1. Understand the problem statement and the requirement of the lab
