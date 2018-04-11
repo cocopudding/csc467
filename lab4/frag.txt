@@ -1,0 +1,22 @@
+!!ARBfp1.0
+TEMP temp;
+TEMP condTemp1;
+MOV condTemp1, 1.0;
+#else
+CMP temp, condTemp1, fragment.color, temp;
+#then
+TEMP exprTemp1;
+MUL exprTemp1, fragment.color.x, fragment.position.x;
+CMP temp.x, condTemp1, temp.x, exprTemp1;
+TEMP exprTemp2;
+MUL exprTemp2, fragment.color.y, fragment.position.y;
+CMP temp.y, condTemp1, temp.y, exprTemp2;
+CMP temp.z, condTemp1, temp.z, fragment.color.z;
+TEMP exprTemp3;
+TEMP exprTemp4;
+MUL exprTemp4, fragment.color.w, fragment.position.x;
+MUL exprTemp4, exprTemp4, fragment.position.y;
+CMP temp.w, condTemp1, temp.w, exprTemp4;
+#endif
+MOV result.color, temp;
+END
