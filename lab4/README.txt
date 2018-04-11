@@ -1,8 +1,4 @@
 CSC467 Lab4 Report
-Jianning Yan (1000461715)
-Wen Ying Zhang (1000404207)
- 
-Both team member contributed equally to all the parts of the labs.
  
 Workflow: 
 Start by creating 2 files: codegen.c and codegen.h. Also create a file for the output called frag.txt
