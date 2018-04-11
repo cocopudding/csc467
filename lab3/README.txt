@@ -1,10 +1,4 @@
 CSC467 Lab3 Report
- 
-Jianning Yan (1000461715)
-Wen Ying Zhang (1000404207)
- 
-Both team member contributed equally to all the parts of the labs.
- 
 We start by running the starter code and make sure the starter code has no error. 
 
 We implement the data structure for ast according to the parser the starter code provides. Then we develop our own symbol table to store variable types. 
